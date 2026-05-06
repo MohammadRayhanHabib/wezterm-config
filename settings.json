@@ -1,0 +1,284 @@
+{
+    // "vscode-edge-devtools.defaultEntrypoint": "index.html",
+    // Use spaces or tabs
+    // "editor.insertSpaces": true, // or false for tabs
+
+    // Set how wide one indent should be (in spaces)
+    // "editor.tabSize": 2, // set to 2 or 1 based on what you want
+
+    // Make sure VSCode respects this setting
+    "editor.detectIndentation": false,
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.indent": 8,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.decorations.badges": false,
+    "git.decorations.enabled": false,
+
+    // "custom-ui-style.stylesheet": {
+    //   ".notification-toast": "box-shadow: none !important",
+    //   ".quick-input-widget.show-file-icons": "box-shadow: none !important",
+    //   ".quick-input-widget": "top: 25vh !important",
+    //   ".quick-input-list .scrollbar": "display: none",
+    //   ".monaco-action-bar.quick-input-inline-action-bar": "display: none",
+    //   ".editor-widget.find-widget": "box-shadow: none; border-radius: 4px",
+    //   ".quick-input-titlebar": "background: #100B15 !important",
+    //   ".monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after": "display: none",
+    //   ".monaco-scrollable-element > .shadow.top": "display: none",
+    //   ".sidebar .title-label": "padding: 0 !important",
+    //   ".sidebar": "border: none !important",
+    //   ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+    //   ".monaco-list-row.focused": "outline: none !important",
+    //   ".monaco-editor .scroll-decoration": "display: none",
+    //   ".title-actions": "display: none !important",
+    //   ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
+    //   ".title .monaco-icon-label:after": "margin-right: 0",
+    //   ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
+    //   ".title .monaco-icon-label.file-icon": "margin: 0 60px",
+    //   ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
+    // },
+    // "custom-ui-style.font.sansSerif": "Dank Mono",
+    // "editor.multiCursorModifier": "ctrlCmd",
+    // "editor.cursorBlinking": "solid",
+    // "workbench.colorCustomizations": {
+    //   "editorCursor.background": "#000000",
+    //   "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+    //   "editorOverviewRuler.selectionHighlightForeground": "#0000",
+    //   "editorOverviewRuler.rangeHighlightForeground": "#0000",
+    //   "editorOverviewRuler.wordHighlightForeground": "#0000",
+    //   "editorOverviewRuler.bracketMatchForeground": "#0000",
+    //   "editorOverviewRuler.findMatchForeground": "#0000",
+    //   "editorOverviewRuler.modifiedForeground": "#0000",
+    //   "editorOverviewRuler.deletedForeground": "#0000",
+    //   "editorOverviewRuler.warningForeground": "#0000",
+    //   "editorOverviewRuler.addedForeground": "#0000",
+    //   "editorOverviewRuler.errorForeground": "#0000",
+    //   "editorOverviewRuler.infoForeground": "#0000",
+    //   "editorOverviewRuler.border": "#0000",
+    //   "[Aura Dracula Spirit (Soft)]": {
+    //     "editorSuggestWidget.selectedBackground": "#3A334B",
+    //     "sideBar.background": "#191521"
+
+    //   }
+    // },
+    // "editor.fontFamily": "Dank Mono",
+    "editor.fontSize": 22,
+    // "editor.colorDecorators": false,
+    // "editor.codeLens": false,
+    // "editor.links": false,
+    // "editor.matchBrackets": "never",
+    // "editor.parameterHints.enabled": true,
+    // "editor.quickSuggestions": {
+    //   "other": "on",
+    //   "comments": "off",
+    //   "strings": "on"
+    // },
+    // "editor.lightbulb.enabled": "off",
+    // "editor.hover.enabled": true,
+    "editor.lineNumbers": "relative",
+    // "editor.tabSize": 4,
+    // "editor.detectIndentation": false,
+    // "editor.showFoldingControls": "never",
+    // "editor.guides.indentation": false,
+    // "editor.renderWhitespace": "none",
+    // "editor.renderLineHighlight": "none",
+    // "editor.occurrencesHighlight": "off",
+    // "editor.selectionHighlight": false,
+    // "editor.scrollbar.horizontal": "hidden",
+    // "editor.scrollbar.vertical": "hidden",
+    // "editor.overviewRulerBorder": false,
+    // "editor.hideCursorInOverviewRuler": true,
+    // "editor.quickSuggestions": {
+    //   "other": "on"
+    // },
+    // "editor.suggestOnTriggerCharacters": true,
+    // "editor.tabCompletion": "on",
+    // "editor.snippetSuggestions": "top",
+    // "emmet.triggerExpansionOnTab": true,
+    // "files.autoSave": "",
+    // "update.mode": "none",
+    // "extensions.ignoreRecommendations": true,
+    // "window.menuBarVisibility": "toggle",
+    // "editor.codeActionsOnSave": {
+    //   "source.organizeImports": "explicit",
+    //   "source.fixAll": "explicit"
+    // },
+    // "editor.formatOnSave": true,
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // "files.trimTrailingWhitespace": true,
+    // "files.insertFinalNewline": true,
+    // "scm.diffDecorations": "none",
+    // "[cpp]": {
+    //     "editor.defaultFormatter": "ms-vscode.cpptools"
+    // },
+    // "[html]": {
+    //     "editor.defaultFormatter": "vscode.html-language-features"
+    // },
+    // "workbench.statusBar.visible": false,
+    // "window.customTitleBarVisibility": "never"
+    "editor.fontWeight": "600",
+
+    // Hide horizontal and vertical scrollbars
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+
+    // Disable scrolling in the editor
+    "editor.scrollBeyondLastLine": false,
+    "editor.cursorSurroundingLines": 0,
+
+    // Disable minimap (which can affect scrolling)
+    "editor.minimap.enabled": false,
+
+    // Disable mouse wheel scrolling
+    "editor.mouseWheelScrollSensitivity": 0,
+    "editor.mouseWheelZoom": false,
+
+    // Hide overview ruler (right-side scrollbar area)
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.overviewRulerBorder": false,
+
+    // Ensure the editor doesn't allow extra space for scrolling
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 0,
+    "editor.smoothScrolling": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "prettier.tabWidth": 4,
+
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1,
+    },
+
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"],
+        },
+    ],
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.colorCustomizations": {},
+    // "vscode_vibrancy.theme": "Dark (Exclude Tab Line)",
+    "vscode_vibrancy.theme": "GitHub Dark Default",
+    "terminal.integrated.env.windows": {},
+    "security.workspace.trust.untrustedFiles": "open",
+
+    "terminal.integrated.fontSize": 17,
+    "window.zoomPerWindow": false,
+    // Increase problems/output/debug console font size
+    // "editor.codeLensFontSize": 18,
+    // "window.titleBarStyle": "native",
+
+    "custom-ui-style.electron": {
+        "titleBarStyle": "hiddenInset",
+
+        "trafficLightPosition": {
+            "x": 20,
+            "y": 16,
+        },
+    },
+    // "workbench.editor.showTabs": "single",
+    // "window.zoomLevel": 3,
+    "editor.lineHeight": 1.1,
+    "[cpp]": {
+        "editor.wordBasedSuggestions": "off",
+        "editor.semanticHighlighting.enabled": true,
+        "editor.stickyScroll.defaultModel": "foldingProviderModel",
+        "editor.suggest.insertMode": "replace",
+    },
+
+    "vscode_vibrancy.opacity": 0.9,
+
+    "terminal.integrated.gpuAcceleration": "off", // "window.zoomLevel": 1,
+    "window.titleBarStyle": "custom",
+    // // // "workbench.colorTheme": "Visual Studio Dark",
+    "window.controlsStyle": "hidden",
+    "workbench.editor.showTabs": "single",
+
+    "background.fullscreen": {
+        // Local images can be dragged into the browser to quickly get the file protocol address from the address bar
+        "style": {
+            "background-position": "100% 100%",
+            // "background-size": "auto",
+            // "opacity": 0.6
+        },
+        "images": [""],
+        "opacity": 0.2,
+        "size": "cover",
+        "position": "center",
+        "interval": 0,
+        "random": false,
+    },
+    //     "background.fullscreen": {
+    //     "style": {
+    //         "background-position": "100% 100%",
+    //         "opacity": 0.6
+    //     },
+    //     // "size": "auto",
+    //     // "position": "center",
+    //     "interval": 0,
+    //     "random": false
+    // }
+
+    // `sidebar` and `panel` have the same config as `fullscreen`
+    "background.sidebar": {},
+    "background.panel": {},
+
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Hyper Term Black",
+    "python.defaultInterpreterPath": "C:\\Python313\\python.exe",
+    "files.associations": {
+        "*.py": "python",
+    },
+    // "workbench.layoutControl.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "workbench.editor.editorActionsLocation": "hidden",
+    "window.customTitleBarVisibility": "never",
+
+    // Changes the title text shown in the VS Code window (works natively)
+    // Customize as you like, e.g. "MyCode — ${rootName}"
+
+    // "window.title": "MyCode — ${rootName}",
+    "window.title": "mee",
+    // Optional: if you use a file/product icon theme, set it here
+    // (does NOT change the app/taskbar icon)
+    // "workbench.iconTheme": "material-icon-theme",
+    // "workbench.productIconTheme": "fluent-icons",
+
+    // The entries below are custom placeholders for your tooling.
+    // They won't change VS Code by themselves, but an extension/launcher
+    // could read these to apply branding.
+
+    // Branding name overrides
+    "customApp.branding.nameShort": "MyCode",
+    "customApp.branding.nameLong": "My Visual Studio Code",
+
+    // Point to a single logo file (PNG/SVG/ICO) or a folder with multiple sizes
+    // "customApp.branding.logoPath": "D:\\Brand\\logo.png",
+    // "customApp.branding.logoFolder": "D:\\Brand\\logos\\",
+
+    // If you host the logo online
+    //   "customApp.branding.logoUrl": "",
+
+    // // Optional: explicit icon files by size/type for a packager/launcher
+
+    // "customApp.branding.icon256": "D:\\Brand\\icon-256.png",
+
+    "glassit.alpha": 205,
+    "window.menuBarVisibility": "compact",
+    "window.zoomLevel": -1,
+}
