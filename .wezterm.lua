@@ -4,7 +4,7 @@ local config = wezterm.config_builder()
 
 -- PERFORMANCE & RENDERING
 config.front_end = "OpenGL"
-config.max_fps = 165
+config.max_fps = 160
 config.animation_fps = 1
 config.cursor_blink_rate = 500
 config.default_cursor_style = "BlinkingBlock"
@@ -12,12 +12,17 @@ config.term = "xterm-256color"
 config.prefer_egl = true
 config.font = wezterm.font("JetBrains Mono", { weight = "Medium" })
 
+-- SMOOTH CURSOR (closest WezTerm can get to smear-cursor.nvim)
+config.cursor_blink_ease_in = "EaseOut"
+config.cursor_blink_ease_out = "EaseOut"
+
+-- Speed up the animation for a snappier, fluid feel (in milliseconds)
+
 -- FONT
---
 --
 
 --config.font = wezterm.font("Iosevka Custom")
-config.font_size = 16.0
+config.font_size = 14.0
 config.cell_width = 0.9
 
 -- PADDING & DECORATIONS
@@ -26,11 +31,10 @@ config.window_decorations = "NONE | RESIZE"
 
 -- OPACITY
 config.window_background_opacity = 0.9
-
 -- config.win32_system_backdrop = "Acrylic"
---config.window_background_image = "C:/Users/ref/Pictures/e.gif"
+--config.window_background_image = "C:/Users/ref/Pictures/r.png"
 -- config.window_background_image_hsb = {
--- 	brightness = 0.7, -- dim it
+-- 	brightness = 0.04, -- dim it
 -- 	hue = 1.0,
 -- 	saturation = 1.0,
 -- }

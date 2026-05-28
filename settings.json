@@ -67,7 +67,7 @@
     //   }
     // },
     // "editor.fontFamily": "Dank Mono",
-    "editor.fontSize": 22,
+    "editor.fontSize": 20,
     // "editor.colorDecorators": false,
     // "editor.codeLens": false,
     // "editor.links": false,
@@ -121,7 +121,7 @@
     // },
     // "workbench.statusBar.visible": false,
     // "window.customTitleBarVisibility": "never"
-    "editor.fontWeight": "600",
+    "editor.fontWeight": "1000",
 
     // Hide horizontal and vertical scrollbars
     "editor.scrollbar.horizontal": "hidden",
@@ -177,10 +177,10 @@
     "terminal.integrated.env.windows": {},
     "security.workspace.trust.untrustedFiles": "open",
 
-    "terminal.integrated.fontSize": 17,
+    "terminal.integrated.fontSize": 25,
     "window.zoomPerWindow": false,
     // Increase problems/output/debug console font size
-    // "editor.codeLensFontSize": 18,
+    "editor.codeLensFontSize": 20,
     // "window.titleBarStyle": "native",
 
     "custom-ui-style.electron": {
@@ -216,7 +216,9 @@
             // "background-size": "auto",
             // "opacity": 0.6
         },
-        "images": [""],
+        "images": [
+            "https://i1-c.pinimg.com/736x/f3/4a/53/f34a53047f0de65893e7b0e4758bec59.jpg",
+        ],
         "opacity": 0.2,
         "size": "cover",
         "position": "center",
@@ -278,7 +280,13 @@
 
     // "customApp.branding.icon256": "D:\\Brand\\icon-256.png",
 
-    "glassit.alpha": 205,
+    "glassit.alpha": 255,
     "window.menuBarVisibility": "compact",
-    "window.zoomLevel": -1,
+    "terminal.integrated.initialHint": false,
+
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.cursorSmoothCaretAnimation": "on",
 }
